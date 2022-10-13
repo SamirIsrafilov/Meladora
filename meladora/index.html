@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../sass/style.css">
+
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
+
+
+</head>
+
+<body>
+
+
+    <section class="hero">
+        <div class="hero_image">
+            <header class=" text-white text-center">
+                <div
+                    class="d-flex container align-items-center justify-content-center justify-content-between border-bottom py-2 header_socials">
+                    <a class="text-white text-decoration-none" href="#"><i class="fa-solid fa-phone"></i> +994 (70)
+                        5555777</a>
+                    <ul class="d-flex align-items-center list-unstyled m-0">
+                        <li class="mx-1"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li class="mx-1"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li class="mx-1"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="mx-1"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="mx-1"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+
+                    </ul>
+
+                </div>
+            </header>
+
+
+            <nav class="navbar navbar-expand-lg navbar-dark" id="mainNavbar">
+                <div class="container">
+                    <a href="#" class="navbar-brand text-uppercase"><img src="../img/Group 1.png" alt=""></a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#myNavbar"
+                        aria-controls="myNavbar" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="myNavbar" aria-labelledby="myLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title"><img src="../img/Group 1.png" alt=""></h5>
+                            <button type="button" class="btn-close text-reset" id="close_btn"
+                                data-bs-dismiss="offcanvas">
+                            </button>
+                        </div>
+                        <div class="offcanvas-body" id="nav_menu">
+                            <ul class="navbar-nav ms-auto  py-lg-2 te">
+                                <li class="nav-item mx-1"><a href="./about.html"
+                                        class="nav-link btn-close-canvas text-white">Biz kimik?</a></li>
+                                <li class="nav-item mx-1"><a href="./gardens.html"
+                                        class="nav-link btn-close-canvas text-white ">Bağlarımız</a></li>
+                                <li class="nav-item mx-1"><a href="./products.html"
+                                        class="nav-link btn-close-canvas text-white">Məhsullarımız</a></li>
+                                <li class="nav-item mx-1"><a href="./services.html"
+                                        class="nav-link btn-close-canvas text-white">Xidmətlərimiz</a></li>
+                                <li class="nav-item mx-1"><a href="./social_res.html"
+                                        class="nav-link btn-close-canvas text-white">Sosial məsuliyyət</a></li>
+                                <li class="nav-item mx-1"><a href="./contact.html"
+                                        class="nav-link btn-close-canvas text-white">Əlaqə</a></li>
+
+                            </ul>
+                            <div class="searchBox">
+                                <div class="search text-white "><i class="bi bi-search"></i></div>
+                                <div class="searchInput">
+                                    <input type="text" placeholder="Search Here">
+                                </div>
+                                <div class="close text-white "><i class="bi bi-x"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </section>
+
+    <section class="owl-carousel owl-theme container slider ">
+        <div class="item container" id="fruits">
+            <h2>Meyvələr</h2>
+            <a href="#"> Daha çox...</a>
+            <img src="./img/vippng.com-tropical-background-png-1555633.png" alt="">
+        </div>
+        <div class="item container" id="vegetables">
+            <h2>Tərəvəzlər</h2>
+            <a href="#"> Daha çox...</a>
+            <img src="./img/unnamed (3).png" alt="">
+        </div>
+        <div class="item container" id="wheat">
+            <h2>Taxıl</h2>
+            <a href="#"> Daha çox...</a>
+            <img src="./img/flour-clip-art-21.png" alt="">
+        </div>
+
+    </section>
+
+    <section class="about">
+        <img src="./img/Group 417.png" alt="" id="about_logo">
+        <div class="container-fluid text-center" id="back_image">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 p-0" id="about_image">
+                    <img src="./img/markus-spiske-k2BDz7QXuJM-unsplash.png" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8  pt-5" id="info">
+                    <h2 class="fw-bold">Biz kimik?</h2>
+                    <img class="my-1" src="./img/Group 11.png" alt="">
+                    <p>Əslində hər şey illər əvvəl İsmayıllı rayonunda ailəvi gəzintidə olduğumuz zaman baş verdi.<br />
+                        İsmayıllı rayonunun füsunkar təbiətinin gözəlliyi bizim bir gün burda kənd təsərufatı ilə<br />
+                        məşqul olmaq arzusunu oyatdı. Daha sonra dostlarımızla bu məsələni müzakirə edərək<br />
+                        İsmayıllıda təsəruffat qurmağa qərar verdik.<br />
+                        Böyük uğurlar vaxtında və yerində verilən qərarlarla çox bağlıdır.<br />
+                        Elə bizdə ilk səfərdə qərar verdik və başladıqş İllər çox sürətli keçdi.Bizdə böyümədə<br />
+                        zamanınsürətindən geri qalmadıq.Qısa zaman müddətində əldə etdiyimiz uğurlar va daha<br />
+                        sürətlə böyüməyə davam etməyimiz işimizə olan sevginin göstəricisidir.<br />
+                        Alma,armud,nektarin,gavalı,gilas və qoz yetişdirməklə qalmadıq,tingçilik və toxumçuluqla<br />
+                        məhsul sıramızı genişləndirdik.<br />
+                        Qısa zamanda ən son texnoloji yeniliklərlə damla suvarma sistemlərinin qurulması<br />
+                        BAĞLARIN layihələndirilməsi,salınması kimi çətin işlərin öhdəsindən uğurla gəldik.<br />
+                        2022 ci ildə əsas hədəfimiz brendimizin "made in AZERBAİJAN" adına layiq ölkə kənarında<br />
+                        rəflərdə görünməsidir.<br />
+                        növbəti hədəfləri sizlərlə paylaşmaq arzusuyla.<br /><br />
+                        hörmətlə</p>
+                    <div class="pt-4" id="leaf_img">
+                        <img src="./img/Path 37.png" alt="">
+                        <img src="./img/Group 6.png" alt="">
+                        <img src="./img/Path 37.png" alt="">
+                    </div>
+                    <ul class="d-flex justify-content-center align-items-center list-unstyled mt-2">
+                        <li class="mx-4"><img src="./img/Path 24.png" alt=""><br />
+                            <h6 class="mt-2">Organik</h6>
+                        </li>
+                        <li class="mx-4"><img src="./img/Path 34.png" alt=""><br />
+                            <h6 class="mt-2">Məmnuniyyət</h6>
+                        </li>
+                        <li class="mx-4"><img src="./img/Path 29.png" alt=""><br />
+                            <h6 class="mt-2">Lorem</h6>
+                        </li>
+                        <li class="mx-4"><img src="./img/Group 4.png" alt=""><br />
+                            <h6 class="mt-2">Yüksək keyfiyyət</h6>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="gardens">
+        <div class="text-center my-3">
+            <h2 class=" fw-bold">Bağlarımız</h2>
+            <img src="./img/Group 11.png" alt="">
+        </div>
+        <div class="container ">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mt-2" id="garden_01">
+                    <span>01</span>
+                    <h1 class="fw-bold">BAĞ</h1>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.Lorem
+                        Ipsum has been the industry's standard
+                        dummy text ever since the 1500s.
+                    </p>
+                    <img src="./img/karina-vorozheeva-brQS8ihqRq4-unsplash.png" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mt-2" id="garden_02">
+                    <img src="./img/adele-payman-2oYMwuFgnTg-unsplash.png" alt="">
+                    <p class="mt-2">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.Lorem
+                        Ipsum has been the industry's standard
+                        dummy text ever since the 1500s.
+                    </p>
+                    <h1 class="fw-bold">BAĞ</h1>
+                    <span>02</span>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mt-2" id="garden_03">
+                    <span>03</span>
+                    <h1 class="fw-bold">BAĞ</h1>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.Lorem
+                        Ipsum has been the industry's standard
+                        dummy text ever since the 1500s.
+                    </p>
+                    <img src="./img/markus-winkler-HeqXGxnsnX4-unsplash.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  
+    <section class="products mt-5">
+        <img src="./img/Group 423.png" alt="" id="products_logo">
+        <div class="text-center" id="product_header">
+            <h2>Məhsullarımız</h2>
+            <img src="./img/Group 11.png" alt="" class="my-2">
+            <ul class="list-unstyled d-flex justify-content-center align-items-center">
+                <li><a onclick="all_btn()" class="btn all_btn">Hamısı</a></li>
+                <li><a  onclick="fruits_btn()" class="btn fruits_btn">Meyvələr</a></li>
+                <li><a onclick="vegetables_btn()" class="btn vegetables_btn">Tərəvəzlər</a></li>
+                <li><a onclick="wheat_btn()" class="btn wheat_btn">Taxıllar</a></li>
+                <li><a onclick="other_btn()" class="btn other_btn">Digər</a></li>
+            </ul>
+
+             <div class="container d-flex flex-column " id="all_products">
+                <div class="row" id="products_top">
+
+                    <div class="product mx-3 col-12 col-sm-6 col-md-4 col-lg-2">
+                        <a class="text-dark text-decoration-none" data-fancybox data-src="#open" href="#">
+                            <img src="./img/932-9328480_apples-png-image-red-apple-fruit.png" alt="">
+                            <div class="price">
+                                <h3>Alma</h3>
+                                <img src="./img/Group 413.png" alt="">
+                            </div>
+                        </a>
+
+                        <div class="hidden">
+                            <div class="red" id="open">
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <div class="col-12 col-md-5">
+                                            <img src="./img/modalapple.png" alt="">
+                                        </div>
+                                        <div class="col-12 col-md-7 text-start">
+                                            <h4 class="fw-bold">Alma</h4>
+                                            <span><img src="./img/Group 413.png" alt=""></span>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,<br/>
+                                                sapiente architecto dolorem, soluta quibusdam earum quam eligendi omnis<br/>
+                                                deserunt corporis in saepe, provident enim voluptatibus sed! Ad<br/>
+                                                architecto dolorum tenetur, dolores alias quaerat laboriosam, provident<br/>
+                                                quas autem aperiam voluptate dicta nihil, repudiandae officia. Dolor<br/>
+                                                libero iusto distinctio quis eaque porro magnam quo doloribus<br/>
+                                                reprehenderit, cumque nam quia est possimus similique suscipit modi<br/>
+                                             </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-4">
+                                       
+                                           <a href="./img/michael-diane-weidner-tiPQCmdALWs-unsplash.png" data-fancybox="group" data-caption="This image has a caption 1">
+                                            <img class="mb-5" src="./img/michael-diane-weidner-tiPQCmdALWs-unsplash.png"  /></a>
+                                        </div>
+                                        <div class="col-12 col-md-4">
+                                          
+                                            <a href="./img/marek-studzinski-3D6yReT06p0-unsplash.png" data-fancybox="group" data-caption="This image has a caption 1">
+                                            <img class="mb-5" src="./img/marek-studzinski-3D6yReT06p0-unsplash.png"  /></a>
+                                        </div>
+                                        <div class="col-12 col-md-4">
+                                           
+                                            <a href="./img/timotheus-frobel-GeuqLqpgZ6k-unsplash.png" data-fancybox="group" data-caption="This image has a caption 1">
+                                            <img class="mb-5" src="./img/timotheus-frobel-GeuqLqpgZ6k-unsplash.png"/></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                        <img src="./img/1028.png" alt="">
+                        <div class="price">
+                            <h3>Gavalı</h3>
+                            <img src="./img/Group 413.png" alt="">
+                            
+                        </div>
+                    </div>
+
+                    <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                        <img src="./img/183666_1-20201031-211428.png" alt="">
+                        <div class="price">
+                            <h3>Armud</h3>
+                            <img src="./img/Group 413.png" alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                        <img src="./img/6807573_preview.png" alt="">
+                        <div class="price">
+                            <h3>Gilas</h3>
+                            <img src="./img/Group 413.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                        <img src="./img/NicePng_walnut-png_994140.png" alt="">
+                        <div class="price">
+                            <h3>Qoz</h3>
+                            <img src="./img/Group 413.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5" id="products_bottom">
+                    <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                        <img src="./img/purepng.com-peachpeachjuicy-fruitnectarinefoodfruitpeachescutted-peaches-17015273518552udi7.png "
+                            alt="">
+                        <div class="price">
+                            <h3>Şaftalı</h3>
+                            <img src="./img/Group 413.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                        <img src="./img/NicePng_wheat-png_92445.png" alt="">
+                        <div class="price">
+                            <h3>Taxıl</h3>
+                            <img src="./img/Group 413.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                        <img src="./img/Orange-PNG-Image.png" alt="">
+                        <div class="price">
+                            <h3>Portağal</h3>
+                            <img src="./img/Group 413.png" alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                        <img src="./img/9-99445_growing-plant-png-mart-plant-growing-transparent.png" alt="">
+                        <div class="price">
+                            <h3>Müxtəlif tinglər</h3>
+                            <img src="./img/Group 413.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                        <img src="./img/Tomato-PNG-Free-File.png" alt="">
+                        <div class="price">
+                            <h3>Pomidor</h3>
+                            <img src="./img/Group 413.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+
+        <div class="container d-flex flex-column d-none" id="fruits_products">
+            <div class="row" id="products_top">
+
+                <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                    <img src="./img/1028.png" alt="">
+                    <div class="price">
+                        <h3>Gavalı</h3>
+                        <img src="./img/Group 413.png" alt="">
+                    </div>
+                </div>
+
+                <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                    <img src="./img/183666_1-20201031-211428.png" alt="">
+                    <div class="price">
+                        <h3>Armud</h3>
+                        <img src="./img/Group 413.png" alt="">
+                    </div>
+                </div>
+
+                <div class="product mx-3 col-12 col-sm-6 col-md-4 col-lg-2">
+                    <a class="text-dark text-decoration-none" data-fancybox data-src="#open" href="#">
+                        <img src="./img/932-9328480_apples-png-image-red-apple-fruit.png" alt="">
+                        <div class="price">
+                            <h3>Alma</h3>
+                            <img src="./img/Group 413.png" alt="">
+                        </div>
+                    </a>
+
+                    <div class="hidden">
+                        <div class="red" id="open">
+                            <div class="container text-center">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="./img/modalapple.png" alt="">
+                                    </div>
+                                    <div class="col-7 text-start">
+                                        <h4 class="fw-bold">Alma</h4>
+                                        <span><img src="./img/Group 413.png" alt=""></span>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,<br/>
+                                            sapiente architecto dolorem, soluta quibusdam earum quam eligendi omnis<br/>
+                                            deserunt corporis in saepe, provident enim voluptatibus sed! Ad<br/>
+                                            architecto dolorum tenetur, dolores alias quaerat laboriosam, provident<br/>
+                                            quas autem aperiam voluptate dicta nihil, repudiandae officia. Dolor<br/>
+                                            libero iusto distinctio quis eaque porro magnam quo doloribus<br/>
+                                            reprehenderit, cumque nam quia est possimus similique suscipit modi<br/>
+                                         </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                       <img src="./img/michael-diane-weidner-tiPQCmdALWs-unsplash.png" alt="">
+                                    </div>
+                                    <div class="col">
+                                        <img src="./img/marek-studzinski-3D6yReT06p0-unsplash.png" alt="">
+                                    </div>
+                                    <div class="col">
+                                        <img src="./img/timotheus-frobel-GeuqLqpgZ6k-unsplash.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                    <img src="./img/6807573_preview.png" alt="">
+                    <div class="price">
+                        <h3>Gilas</h3>
+                        <img src="./img/Group 413.png" alt="">
+                    </div>
+                </div>
+                <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                    <img src="./img/purepng.com-peachpeachjuicy-fruitnectarinefoodfruitpeachescutted-peaches-17015273518552udi7.png "
+                        alt="">
+                    <div class="price">
+                        <h3>Şaftalı</h3>
+                        <img src="./img/Group 413.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row mt-5" id="products_bottom">
+
+                <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                    <img src="./img/Orange-PNG-Image.png" alt="">
+                    <div class="price">
+                        <h3>Portağal</h3>
+                        <img src="./img/Group 413.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class=" container d-flex flex-column d-none" id="vegetables_products">
+            <div class="row" id="products_top">
+                <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                    <img src="./img/Tomato-PNG-Free-File.png" alt="">
+                    <div class="price">
+                        <h3>Pomidor</h3>
+                        <img src="./img/Group 413.png" alt="">
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="row mt-5" id="products_bottom">
+
+            </div>
+
+        </div>
+
+
+        <div class=" container d-flex flex-column d-none" id="wheat_products">
+            <div class="row" id="products_top">
+
+                <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                    <img src="./img/NicePng_wheat-png_92445.png" alt="">
+                    <div class="price">
+                        <h3>Taxıl</h3>
+                        <img src="./img/Group 413.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row mt-5" id="products_bottom">
+
+            </div>
+
+        </div>
+
+        <div class=" container d-flex flex-column d-none" id="other_products">
+            <div class="row" id="products_top">
+
+
+                <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                    <img src="./img/9-99445_growing-plant-png-mart-plant-growing-transparent.png" alt="">
+                    <div class="price">
+                        <h3>Müxtəlif tinglər</h3>
+                        <img src="./img/Group 413.png" alt="">
+                    </div>
+                </div>
+
+
+                <div class="product mx-3 col-12 col-sm-6 col-md-4  col-lg-2">
+                    <img src="./img/NicePng_walnut-png_994140.png" alt="">
+                    <div class="price">
+                        <h3>Qoz</h3>
+                        <img src="./img/Group 413.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5" id="products_bottom">
+
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+    <section class="blog ">
+        <div class="text-center" id="blog_title">
+            <h2>Bloglar</h2>
+            <img src="./img/Group 11.png" alt="">
+        </div>
+        <div class="container mt-4">
+            <div class="row container m-0 " id="blog_cards">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-0 pt-5 mb-5 blog_card">
+                    <img src="./img/markus-spiske-k2BDz7QXuJM-unsplash2.png" alt="">
+                    <h2 class="text-start my-2">Lorem ipsum dolor sit amet.</h2>
+                    <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates at
+                        assumenda facilis,
+                        vitae repellendus? Provident quod hic quisquam cupiditate facere illo exercitationem earum
+                        reiciendis.</p>
+                </div>
+                <div class="col-12ccol-sm-12 col-md-6 col-lg-4 p-0 blog_card">
+                    <img src="./img/close-up-woman-harvesting-garden.png" alt="">
+                    <h2 class="text-start my-2">Lorem ipsum dolor sit amet.</h2>
+                    <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates at
+                        assumenda facilis,
+                        vitae repellendus? Provident quod hic quisquam cupiditate facere illo exercitationem earum
+                        reiciendis.</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-0 pt-5 blog_card">
+                    <img src="./img/markus-spiske-sFydXGrt5OA-unsplash.png" alt="">
+                    <h2 class="text-start my-2">Lorem ipsum dolor sit amet.</h2>
+                    <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates at
+                        assumenda facilis,
+                        vitae repellendus? Provident quod hic quisquam cupiditate facere illo exercitationem earum
+                        reiciendis.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer d-flex">
+        <div class="container text-center ">
+            <div class="row  container" id="footer_menu">
+                <div class=" col-12 col-md-12 col-lg-6 d-flex justify-content-center align-items-center p-0"><img
+                        src="./img/Group 418.png" alt=""></div>
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                    <ul class="list-unstyled text-start">
+                        <li>Menyular</li>
+                        <li><a href="#">Biz kimik?</a></li>
+                        <li><a href="#">Bağlarımız</a></li>
+                        <li><a href="#">Məhsullarımız</a></li>
+                        <li><a href="#">Xidmətlərimiz</a></li>
+                        <li><a href="#">Sosial məsuliyyət</a></li>
+                        <li><a href="#">Əlaqə</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                    <ul class="list-unstyled text-start">
+                        <li>Faydalı Linklər</li>
+                        <li><a href="#">Tez-tez soruşulanlar</a></li>
+                        <li><a href="#">Karyera</a></li>
+                        <li><a href="#">Xidmət şəbəkəsi</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                    <ul class="list-unstyled text-start">
+                        <li>FAQ</li>
+                        <li><a href="#">Təhlükəsizlik</a></li>
+                        <li><a href="">Şərtlər və qaydalar</a></li>
+                    </ul>
+                </div>
+                <div class=" container text-start mt-2 border-top" id="copyright">
+                    <span class="text-white ">Copyright</span>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <a class="top" href="#"><i class="fa-solid fa-angles-up"></i></a>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="../JS/script.js"></script>
+</body>
+
+</html>

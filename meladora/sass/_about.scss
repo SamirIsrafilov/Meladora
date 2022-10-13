@@ -1,0 +1,408 @@
+.about_navbar {
+    background-color: #fff;
+
+    header {
+
+        .header_socials_about {
+            #phone_icon {
+                color: #3E3737 !important;
+                font-weight: 500;
+                font-size: 16px;
+
+                i {
+                    color: #91B40D !important;
+                }
+
+            }
+
+            ul {
+                li {
+                    a {
+                        color: #3E3737;
+                        font-size: 16px;
+                        transition: .5s;
+
+                        &:hover {
+                            color: #91B40D !important;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    #close_btn {
+        background-color: white !important;
+        border-radius: 50%;
+    }
+
+    #nav_menu {
+        background-color: #fff;
+
+        ul {
+            li {
+
+
+                a {
+                    color: #4B4B4D !important;
+                    font-size: 22px;
+                    font-size: 500;
+                    border-radius: 10px;
+
+                    &:hover {
+
+                        color: #fff !important;
+                        background-color: #91B40D !important;
+                    }
+                }
+            }
+        }
+    }
+
+    #about_input {
+        background-color: #eee;
+    }
+}
+
+
+/*About Banner*/
+
+.about_banner {
+    width: 100%;
+    height: 70vh;
+    background-image: url('../img/close-up-woman-harvesting-garden_about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    img {
+        position: absolute;
+        right: 100px;
+        bottom: -100px;
+    }
+}
+
+/*============MEDIA QUERIES (SMALL DEVICES)===================*/
+
+
+@media screen and (max-width:768px) {
+    .about_banner {
+        margin-bottom: 100px;
+        width: 100%;
+        background-position: center;
+        background-size: auto;
+    }
+}
+
+/*About Banner End*/
+
+/* About Info */
+.about_info {
+    #about_info_logo {
+
+        img {
+            transform: translateX(-150px);
+        }
+
+        h2 {
+            transform: translate(-190px, -30px);
+            font-size: 48px;
+            font-weight: bold;
+        }
+    }
+}
+
+
+/*============MEDIA QUERIES (SMALL DEVICES)===================*/
+
+
+
+
+@media screen and (max-width:1024px) {
+    .about_info {
+        text-align: center;
+
+    }
+
+    #about_info_logo {
+
+        img {
+            display: none;
+        }
+
+        h2 {
+
+            transform: translateX(100px) !important;
+        }
+    }
+
+    #about_info_img {
+
+        // display: none;
+        img {
+            width: 100%;
+
+        }
+    }
+
+    #about_leaf_img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    #about_info_logo {
+
+        img {
+            display: none;
+        }
+
+        h2 {
+
+            transform: translateX(50px) !important;
+        }
+    }
+}
+
+
+
+
+/*About Services*/
+
+
+.about_services {
+    #about_services_header {
+        h2 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #2A332B;
+        }
+    }
+
+    #about_services_cards {
+        .about_services_card {
+            h4 {
+                font-size: 24px;
+
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                color: #7C7A7A;
+
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .about_info {
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+
+    .about_services {
+        #about_services_cards {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .about_services_card {
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+
+/*About gallery*/
+
+.about_gallery {
+    #about_gallery_imgs {
+
+        #about_gallery_btn {
+            button {
+                width: 3px;
+                height: 3px;
+                background-color: #91B40D;
+            }
+
+        }
+
+    }
+}
+
+@media screen and (max-width:600px) {
+    #about_gallery_img1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        a {
+            img {
+                width: 250px !important;
+            }
+        }
+    }
+
+    #about_gallery_img2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        a {
+            img {
+                width: 250px !important;
+            }
+        }
+    }
+
+    #about_gallery_img3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        a {
+            img {
+                width: 250px !important;
+            }
+        }
+    }
+
+    .about_gallery_img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            img {
+                width: 250px !important;
+            }
+        }
+
+    }
+}
+
+
+/*About footer*/
+
+.about_footer {
+    width: 100%;
+    height: 88vh;
+    background-image: url('../img/Group\ 442.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #about_footer_menu {
+        transform: translateY(150px);
+    }
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .about_footer {
+        width: 100%;
+        height: 90vh !important;
+        background-image: url('../img/Group\ 442.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        #about_footer_menu {
+            transform: translateY(100px) !important;
+        }
+    }
+
+
+}
+
+
+@media screen and (max-width:600px) {
+    .about_footer {
+        width: 100%;
+        height: 90vh !important;
+        background-image: url('../img/Group\ 442.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+
+        // #about_footer_menu {
+        //     transform: translateY(200px) !important;
+
+        // }
+
+    }
+}
+
+
+/*////////////////////////////////////Gardens/////////////////////////////*/
+
+
+@media screen and (max-width:320px) {
+    .gardens_blog{
+        img{
+            width:250px !important;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .gardens {
+        #gardens_blog_title {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+
+        #gardens_blogs {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+
+
+            .gardens_blog {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 360px;
+                    height: 330px;
+                }
+
+                p {
+                    text-align: center;
+                }
+
+            }
+        }
+    }
+
+
+}

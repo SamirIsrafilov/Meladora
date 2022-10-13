@@ -1,0 +1,914 @@
+/*Navbar and Banner Start*/
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+.hero {
+  padding: 0;
+  background-image: url("../img/markus-spiske-71uUjIt3cIs-unsplash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero #close_btn {
+  background-color: white !important;
+  border-radius: 50%;
+}
+.hero #nav_menu ul li a {
+  font-size: 22px;
+  border-radius: 10px;
+}
+.hero #nav_menu ul li a:hover {
+  background-color: #91B40D !important;
+}
+.hero .hero_image {
+  width: 100%;
+  height: 630px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.hero .header_socials a {
+  color: #3E3737;
+  font-size: 16px;
+}
+.hero .header_socials a i {
+  font-size: 17px;
+}
+.hero .header_socials a i:hover {
+  color: #91B40D !important;
+}
+.hero .header_socials ul li a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  transition: 1s;
+}
+.hero .header_socials ul li a:hover {
+  color: #91B40D !important;
+}
+
+/*Search Box*/
+.searchBox {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.searchBox .search {
+  position: relative;
+  min-width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.searchBox .search i {
+  font-size: 20px;
+  padding-top: 15px;
+}
+.searchBox .close {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.25rem;
+  scale: 0;
+  transition: 0.5s;
+}
+.searchBox .searchInput {
+  position: absolute;
+  left: 60px;
+  width: calc(100% - 120px);
+  height: 100%;
+  line-height: 60px;
+}
+
+.searchBox .searchInput input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-family: 1.25rem;
+}
+
+.searchBox.active {
+  width: 360px;
+  background-color: #fff;
+}
+.searchBox.active .search {
+  color: #000000 !important;
+}
+.searchBox.active .search i {
+  padding: 0;
+}
+.searchBox.active .close {
+  scale: 1;
+  transition-delay: 0.5s;
+  color: #000000 !important;
+}
+
+@media screen and (max-width: 320px) {
+  .searchBox.active {
+    width: 250px;
+    background-color: #fff;
+  }
+  .searchBox.active .search {
+    color: #000000 !important;
+  }
+  .searchBox.active .search i {
+    padding: 0;
+  }
+  .searchBox.active .close {
+    scale: 1;
+    transition-delay: 0.5s;
+    color: #000000 !important;
+  }
+}
+/*Navbar and Banner End*/
+/*Slider Start*/
+.slider {
+  transform: translateY(-150px);
+}
+.slider h2 {
+  color: #fff;
+  padding-top: 30px;
+  padding-left: 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.slider a {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: none;
+  position: absolute;
+  z-index: 5;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.slider #fruits {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  background-color: #1A5221;
+  background-image: url("../img/Group 425.png");
+  background-repeat: no-repeat;
+}
+.slider #fruits img {
+  width: 200px;
+  height: 230px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.slider #vegetables {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  background-color: #91B40D;
+  background-position: bottom;
+  background-image: url("../img/Group 434.png");
+  background-repeat: no-repeat;
+}
+.slider #vegetables img {
+  width: 290px;
+  height: 167px;
+  position: absolute;
+  top: 90px;
+  right: 0;
+}
+.slider #wheat {
+  width: 350px;
+  height: 250px;
+  background-color: #FFBF00;
+  background-image: url("../img/Group 435.png");
+  background-repeat: no-repeat;
+  position: relative;
+}
+.slider #wheat img {
+  width: 350px;
+  height: 262;
+  position: absolute;
+  top: 5px;
+  right: -40px;
+}
+
+/* Slider End*/
+/* Home about Start*/
+.about {
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/Rectangle 18.png");
+  position: relative;
+}
+.about #about_logo {
+  position: absolute;
+  right: 43%;
+  top: 57%;
+}
+.about #back_image #about_image img {
+  transform: translateY(-50px);
+}
+.about #back_image #info p {
+  padding-left: 200px;
+  padding-right: 210px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.about #back_image #info ul li h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .about {
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about {
+    height: auto;
+  }
+  .about #back_image #about_image img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .about #info {
+    margin: 0;
+  }
+  .about #info p {
+    padding: 0 !important;
+    text-align: center !important;
+  }
+  .about #info #leaf_img {
+    background-image: url(../img/Group\ 11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .about #info #leaf_img img {
+    display: none;
+  }
+  .about #info ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .about #info ul li {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+}
+/*Home about End*/
+/* Home Gardens Start*/
+.gardens {
+  margin-top: 100px;
+}
+.gardens #garden_01 span {
+  font-size: 120px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #918F8F;
+}
+.gardens #garden_01 h1 {
+  font-size: 30px;
+}
+.gardens #garden_01 p {
+  width: 320px;
+  font-size: 16px;
+  color: #7C7A7A;
+  padding-right: 30px;
+  font-weight: 400;
+}
+.gardens #garden_02 p {
+  padding-right: 30px;
+  width: 320px;
+  font-size: 16px;
+  color: #7C7A7A;
+  font-weight: 400;
+}
+.gardens #garden_02 h1 {
+  font-size: 30px;
+}
+.gardens #garden_02 span {
+  font-size: 120px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #918F8F;
+}
+.gardens #garden_03 span {
+  font-size: 120px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #918F8F;
+}
+.gardens #garden_03 h1 {
+  font-size: 30px;
+}
+.gardens #garden_03 p {
+  width: 320px;
+  font-size: 16px;
+  color: #7C7A7A;
+  padding-right: 30px;
+  font-weight: 400;
+}
+
+/*============MEDIA QUERIES (SMALL DEVICES)===================*/
+@media screen and (max-width: 768px) {
+  .gardens #garden_01 {
+    display: flex;
+    flex-direction: column;
+  }
+  .gardens #garden_01 p {
+    width: 250px !important;
+  }
+  .gardens #garden_02 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .gardens #garden_02 p {
+    text-align: start;
+    width: 250px !important;
+  }
+  .gardens #garden_03 {
+    display: flex;
+    flex-direction: column;
+  }
+  .gardens #garden_03 p {
+    width: 250px !important;
+  }
+}
+/* Home Gardens End*/
+/* Home Products Start*/
+.products #products_logo {
+  transform: translate(-35px, 40px);
+}
+.products #product_header h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2A332B;
+}
+.products #product_header ul li a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2A332B;
+}
+.products #all_products .product {
+  width: 230px;
+  height: 230px;
+  box-shadow: 2px 2px 4px #707070;
+  position: relative;
+}
+.products #all_products .product .price {
+  background-color: #fff;
+  box-shadow: 2px 2px 4px #707070;
+  transform: translateY(-45px);
+}
+.products #all_products .product .price h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.products #fruits_products #products_top h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2A332B;
+}
+.products #fruits_products #products_top ul li a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2A332B;
+}
+.products #fruits_products .product {
+  width: 230px;
+  height: 230px;
+  box-shadow: 2px 2px 4px #707070;
+  position: relative;
+}
+.products #fruits_products .product .price {
+  background-color: #fff;
+  box-shadow: 2px 2px 4px #707070;
+  transform: translateY(-45px);
+}
+.products #fruits_products .product .price h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.products #vegetables_products {
+  display: none;
+}
+.products #vegetables_products #products_top h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2A332B;
+}
+.products #vegetables_products #products_top ul li a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2A332B;
+}
+.products #vegetables_products .product {
+  width: 230px;
+  height: 230px;
+  box-shadow: 2px 2px 4px #707070;
+  position: relative;
+}
+.products #vegetables_products .product .price {
+  background-color: #fff;
+  box-shadow: 2px 2px 4px #707070;
+  transform: translateY(-45px);
+}
+.products #vegetables_products .product .price h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.products #wheat_products {
+  display: none;
+}
+.products #wheat_products #products_top h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2A332B;
+}
+.products #wheat_products #products_top ul li a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2A332B;
+}
+.products #wheat_products .product {
+  width: 230px;
+  height: 230px;
+  box-shadow: 2px 2px 4px #707070;
+  position: relative;
+}
+.products #wheat_products .product .price {
+  background-color: #fff;
+  box-shadow: 2px 2px 4px #707070;
+  transform: translateY(-45px);
+}
+.products #wheat_products .product .price h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.products #other_products {
+  display: none;
+}
+.products #other_products #products_top h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2A332B;
+}
+.products #other_products #products_top ul li a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2A332B;
+}
+.products #other_products .product {
+  width: 230px;
+  height: 230px;
+  box-shadow: 2px 2px 4px #707070;
+  position: relative;
+}
+.products #other_products .product .price {
+  background-color: #fff;
+  box-shadow: 2px 2px 4px #707070;
+  transform: translateY(-45px);
+}
+.products #other_products .product .price h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*============MEDIA QUERIES (SMALL DEVICES)===================*/
+@media screen and (max-width: 600px) {
+  .products #products_logo {
+    display: none;
+  }
+  .products #product_header ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .products #products_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .products #products_bottom {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .products #products_top .product {
+    margin: 0 !important;
+  }
+  .products #products_bottom {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  #product_header ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* Home Products End*/
+/* Home Blog Start*/
+.blog {
+  transform: translateY(150px);
+}
+.blog #blog_title h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.blog #blog_cards {
+  text-align: start;
+}
+.blog #blog_cards .blog_card h2 {
+  font-size: 20px;
+  font-weight: bold !important;
+  color: #2F2A2A;
+}
+.blog #blog_cards .blog_card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7C7A7A;
+  padding-right: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .blog {
+    margin-top: 50px;
+    transform: translate(0);
+  }
+  .blog #blog_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .blog #blog_cards .blog_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog #blog_cards .blog_card img {
+    width: 250px;
+  }
+  .blog #blog_cards .blog_card h2 {
+    text-align: center !important;
+  }
+  .blog #blog_cards .blog_card p {
+    padding: 0;
+    text-align: center !important;
+  }
+}
+/* Home Blog End*/
+/*Home Footer Start*/
+.footer {
+  height: 676px;
+  width: 100%;
+  background-image: url("../img/ezgif.com-gif-maker (1).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer #footer_menu {
+  transform: translateY(370px);
+}
+.footer #footer_menu ul {
+  margin-top: 20px;
+}
+.footer #footer_menu ul li {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+.footer #footer_menu ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+}
+.footer #copyright {
+  padding-top: 10px;
+}
+.footer #copyright span {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: 100%;
+  }
+  .footer #footer_menu {
+    transform: translateY(0);
+    padding-top: 150px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer {
+    width: 100%;
+  }
+  .footer #footer_menu {
+    transform: translateY(-90px);
+    padding-top: 150px;
+  }
+}
+/*Home Footer End*/
+.about_navbar {
+  background-color: #fff;
+}
+.about_navbar header .header_socials_about #phone_icon {
+  color: #3E3737 !important;
+  font-weight: 500;
+  font-size: 16px;
+}
+.about_navbar header .header_socials_about #phone_icon i {
+  color: #91B40D !important;
+}
+.about_navbar header .header_socials_about ul li a {
+  color: #3E3737;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.about_navbar header .header_socials_about ul li a:hover {
+  color: #91B40D !important;
+}
+.about_navbar #close_btn {
+  background-color: white !important;
+  border-radius: 50%;
+}
+.about_navbar #nav_menu {
+  background-color: #fff;
+}
+.about_navbar #nav_menu ul li a {
+  color: #4B4B4D !important;
+  font-size: 22px;
+  font-size: 500;
+  border-radius: 10px;
+}
+.about_navbar #nav_menu ul li a:hover {
+  color: #fff !important;
+  background-color: #91B40D !important;
+}
+.about_navbar #about_input {
+  background-color: #eee;
+}
+
+/*About Banner*/
+.about_banner {
+  width: 100%;
+  height: 70vh;
+  background-image: url("../img/close-up-woman-harvesting-garden_about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.about_banner img {
+  position: absolute;
+  right: 100px;
+  bottom: -100px;
+}
+
+/*============MEDIA QUERIES (SMALL DEVICES)===================*/
+@media screen and (max-width: 768px) {
+  .about_banner {
+    margin-bottom: 100px;
+    width: 100%;
+    background-position: center;
+    background-size: auto;
+  }
+}
+/*About Banner End*/
+/* About Info */
+.about_info #about_info_logo img {
+  transform: translateX(-150px);
+}
+.about_info #about_info_logo h2 {
+  transform: translate(-190px, -30px);
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/*============MEDIA QUERIES (SMALL DEVICES)===================*/
+@media screen and (max-width: 1024px) {
+  .about_info {
+    text-align: center;
+  }
+  #about_info_logo img {
+    display: none;
+  }
+  #about_info_logo h2 {
+    transform: translateX(100px) !important;
+  }
+  #about_info_img img {
+    width: 100%;
+  }
+  #about_leaf_img {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #about_info_logo img {
+    display: none;
+  }
+  #about_info_logo h2 {
+    transform: translateX(50px) !important;
+  }
+}
+/*About Services*/
+.about_services #about_services_header h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2A332B;
+}
+.about_services #about_services_cards .about_services_card h4 {
+  font-size: 24px;
+}
+.about_services #about_services_cards .about_services_card p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7C7A7A;
+}
+
+@media screen and (max-width: 1024px) {
+  .about_info ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .about_services #about_services_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about_services #about_services_cards .about_services_card {
+    text-align: center;
+  }
+}
+/*About gallery*/
+.about_gallery #about_gallery_imgs #about_gallery_btn button {
+  width: 3px;
+  height: 3px;
+  background-color: #91B40D;
+}
+
+@media screen and (max-width: 600px) {
+  #about_gallery_img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #about_gallery_img1 a img {
+    width: 250px !important;
+  }
+  #about_gallery_img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #about_gallery_img2 a img {
+    width: 250px !important;
+  }
+  #about_gallery_img3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #about_gallery_img3 a img {
+    width: 250px !important;
+  }
+  .about_gallery_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about_gallery_img a img {
+    width: 250px !important;
+  }
+}
+/*About footer*/
+.about_footer {
+  width: 100%;
+  height: 88vh;
+  background-image: url("../img/Group 442.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_footer #about_footer_menu {
+  transform: translateY(150px);
+}
+
+@media screen and (max-width: 1024px) {
+  .about_footer {
+    width: 100%;
+    height: 90vh !important;
+    background-image: url("../img/Group 442.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about_footer #about_footer_menu {
+    transform: translateY(100px) !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about_footer {
+    width: 100%;
+    height: 90vh !important;
+    background-image: url("../img/Group 442.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+/*////////////////////////////////////Gardens/////////////////////////////*/
+@media screen and (max-width: 320px) {
+  .gardens_blog img {
+    width: 250px !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .gardens #gardens_blog_title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .gardens #gardens_blogs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .gardens #gardens_blogs .gardens_blog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .gardens #gardens_blogs .gardens_blog img {
+    width: 360px;
+    height: 330px;
+  }
+  .gardens #gardens_blogs .gardens_blog p {
+    text-align: center;
+  }
+}
+* {
+  font-family: "Cormorant Garamond", sans-serif;
+}
+
+/*Top*/
+.top {
+  transition: 1s;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #ff6600;
+  color: #1967d2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25%;
+  text-decoration: none;
+  font-weight: bold;
+}
+.top i {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.top:hover {
+  background-color: #b7510d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+.hidden div.red {
+  background: red;
+}/*# sourceMappingURL=style.css.map */
